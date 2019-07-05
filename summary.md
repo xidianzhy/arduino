@@ -9,6 +9,7 @@
 1. 老师分享了自己的经历，介绍了美国硅谷使用开源硬件的整体氛围。
 2. 介绍了Arduino开源硬件，如何学习开源硬件。
 3. 介绍了常用软件
+
    - arduino
   ![arduino ide图片](https://github.com/xidianzhy/arduino/blob/master/arduino.png)  
    - fritzing
