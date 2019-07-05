@@ -1,10 +1,11 @@
 #include <Morse.h>
-#define SIZE 26
+#define SIZE 28
 //定义摩尔斯电码表
 String MORSE[SIZE] = {
   ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..",  //A to I
   ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.",//J to R
-  "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."        //S to Z 
+  "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..",        //S to Z 
+   "...","......."//空格，回车
 };
 Morse morse(13);
 
@@ -30,12 +31,19 @@ void loop() {
     for (i = 0; i < n; i++)
     {
 
-        //判断是否为小写字母，如果是则转义
+        //如果为小写字母
         if (str[i] >= 97 && str[i] <= 122)
         {
           output += String(MORSE[int(str[i] - 97)]);
         }
-        else output += String(MORSE[int(str[i] - 65)]);
+        //如果为大写
+        if(str[i] >= 65 && str[i] <= 90)
+          output += String(MORSE[int(str[i] - 65)]);
+        //如果为空格
+      	if(str[i]==32)
+          output += String(MORSE[26]);
+      	//如果为回车
+      	  output += String(MORSE[27]);
     }
     Serial.print(output);  //打印在串口监视器
   }
@@ -49,14 +57,7 @@ void loop() {
         {
          morse.dash();
        }
-       if(output[j]==32)//如果空格，延迟3s
-       {
-        delay(3000);
-       }
-       if(output[j]==13)//如果回车，延迟3s
-       {
-        delay(3000);
-        }
+       
     }
     delay(3000);
   
