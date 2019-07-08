@@ -28,7 +28,7 @@
 - 数码管的原理
 - 7位译码器使用
 - CD4511使用
-   ![CD4511引脚图](http://tupian.baike.com/doc/CD4511/tctupian/1/1?target=a1_13_08_50200009239445155331080234340.jpg)
+   ![CD4511引脚图](https://github.com/xidianzhy/arduino/blob/master/CD4511.png)
 ## 第四天
 - 在tinkercad上完成morse项目（不使用库函数版本）
 - 完成项目报告
