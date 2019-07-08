@@ -28,7 +28,7 @@
 - 数码管的原理
 - 7位译码器使用
 - CD4511使用
-   ![CD4511引脚图](http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=cd4511%E5%BC%95%E8%84%9A%E5%9B%BE&step_word=&hs=0&pn=1&spn=0&di=11440&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=0&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=2484634582%2C3822607093&os=3961915188%2C2573856775&simid=4094961357%2C700739670&adpicid=0&lpn=0&ln=201&fr=&fmq=1562558065392_R&fm=rs1&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=cd4511&objurl=http%3A%2F%2Fp.ananas.chaoxing.com%2Fstar3%2Forigin%2F5666c021498ed8a42945e402.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3F455v8_z%26e3Bviw5xtg2_z%26e3Bv54AzdH3Fzpg51j1jpwtsv5gp65ssj6AzdH3Fetftpg51j1jpwts%3Fv576fjI1%3Dbnd0bmn0%26hg5osj12jI1%3Dbnd0bm0a&gsm=0&rpstart=0&rpnum=0&islist=&querylist=&force=undefined)
+   ![CD4511引脚图](http://tupian.baike.com/doc/CD4511/tctupian/1/1?target=a1_13_08_50200009239445155331080234340.jpg)
 ## 第四天
 - 在tinkercad上完成morse项目（不使用库函数版本）
 - 完成项目报告
